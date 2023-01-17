@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Pickaflick!</title>
+</head>
+<body>
+
+    <nav class="navbar navbar-light bg-light justify-content-between">
+        <a class="navbar-brand">Pick-a-flick</a>      
+      </nav>
+
+        <div class="input-group" style="width: 50%; margin: 50px auto;">
+            <div class="input-group-prepend">
+
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Popular
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                      <button class="dropdown-item" type="button">Trending</button>
+                      <button class="dropdown-item" type="button">Popular</button>
+                      <button class="dropdown-item" type="button">Top rated</button>
+                      <button class="dropdown-item" type="button">Upcoming</button>
+                    </div>
+                  </div>
+
+              </div>
+              
+          <input id="search-input" type="text" class="form-control" placeholder="Search your favourite movie">
+          <div class="input-group-append">
+            <button id="movie-search" class="btn btn-secondary" type="button">
+              <i class="fa fa-search"></i>
+            </button>
+          </div>
+        </div>
+<hr>
+    <div id="card-output">
+
+
+    </div>
+
+
+  <!-- Moment.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+  <!-- jQuery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="./assets/js/script.js"></script>    
+</body>
+</html>
+
