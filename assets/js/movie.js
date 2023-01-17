@@ -101,7 +101,7 @@ function checkLocalDetail(id){
     let storage = localStorage.getItem("movieSearchDetail");
     let storageArr = JSON.parse(storage);
 
-    if (storageArr.some(arr => arr['id'] == id)) {
+    if (storageArr === null || storageArr.some(arr => arr['id'] == id)) {
 
             renderFilmDetails(id);
             console.log('found',id);      
