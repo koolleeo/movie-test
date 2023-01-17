@@ -81,7 +81,8 @@ creditsArr.forEach((arr, index) => {
         let imageURL = `https://image.tmdb.org/t/p/w185${arr.profile_path}`;
         let image = $("<img>");
         image.attr('src', imageURL);
-        image.attr('style','width: 100px')
+        // image.attr('style','width: 100px');
+        image.addClass('card-img-top');
         cardDiv.append(image);
     
         let cardBody = $("<div>");

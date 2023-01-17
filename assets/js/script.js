@@ -102,6 +102,7 @@ function dynamicHTML(arr){
     let imageURL = `https://image.tmdb.org/t/p/w500${arr.poster_path}`;
     let image = $("<img>");
     image.attr('src', imageURL);
+    image.addClass('card-img-top');
     cardDiv.append(image);
 
     let cardBody = $("<div>");
