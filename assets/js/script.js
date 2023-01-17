@@ -192,7 +192,7 @@ function updateLocalMovieSearch(object){
 //         let reply = data;
 
 //         let omdbId = data.imdb_id;
-//         const omdbURL = `http://www.omdbapi.com/?i=${omdbId}&apikey=${APIkeyOMDB}`;
+//         const omdbURL = `https://www.omdbapi.com/?i=${omdbId}&apikey=${APIkeyOMDB}`;
 
 //         $.ajax({
 
