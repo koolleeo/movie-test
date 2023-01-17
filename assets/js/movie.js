@@ -1,6 +1,4 @@
 
-const APIkeyTMDB = '4ea43f6025357b9622135c80346e095e';
-const APIkeyOMDB = '29841051';
 
 function renderFilmDetails(id){
 
