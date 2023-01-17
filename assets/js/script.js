@@ -84,6 +84,9 @@ function dynamicHTML(arr){
     output.empty();
     let cardDeckDiv = $("<div>");
     cardDeckDiv.addClass('card-deck');
+    let title = $("#titleTag");
+    title.empty();
+    title.text(arr.searchTerm);
 
     arr.results.forEach((arr, index) => {
 
